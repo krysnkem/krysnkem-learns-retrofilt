@@ -113,9 +113,11 @@ app.delete("/ideas/:id", function (req, res) {
     }
   }
 });
+//specifying our port number
+const port = process.env.PORT || 3000;
 
-var server = app.listen(9000, function () {
-  console.log(`Server running at port 9000`);
+var server = app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
   var host = server.address().address;
   var port = server.address().port;
 });
