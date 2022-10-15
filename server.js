@@ -75,7 +75,7 @@ app.get("/ideas", function (req, res) {
     });
     res.end(JSON.stringify(ownerIdeas.slice(0, count)));
   }
-  res.end(JSON.stringify(ideas));
+  res.end(JSON.stringify(ideas.slice(0, count)));
 });
 
 app.get("/ideas/:id", function (req, res) {
