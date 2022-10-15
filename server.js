@@ -67,6 +67,14 @@ app.get("/messages", function (req, res) {
 });
 
 app.get("/ideas", function (req, res) {
+  let count =
+    req.query.count != undefined ? req.query.count : (req.query.count = 100);
+  if (req.query.owner) {
+    let ownerIdeas = ideas.filter((idea) => {
+      return idea.owner == req.query.owner;
+    });
+    res.end(JSON.stringify(ownerIdeas.slice(0, count)));
+  }
   res.end(JSON.stringify(ideas));
 });
 
