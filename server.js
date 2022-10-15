@@ -16,12 +16,13 @@ var index = 5;
 var ideas = [
   {
     id: 1,
-    name: "New issue tracking system",
+    name: "New phone triage",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan quis justo quis hendrerit. Curabitur a ante neque. Fusce nec mauris sodales, auctor sem at, luctus eros. Praesent aliquam nibh neque. Duis ut suscipit justo, id consectetur orci. Curabitur ultricies nunc eu enim dignissim, sed laoreet odio blandit.",
-    status: "Idea",
+    status: "Mind Mapped",
     owner: "Jim",
   },
+
   {
     id: 2,
     name: "Revamp build scripts",
@@ -30,29 +31,31 @@ var ideas = [
     status: "Started",
     owner: "Jim",
   },
+
   {
     id: 3,
-    name: "New phone triage",
+    name: "New issue tracking system",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan quis justo quis hendrerit. Curabitur a ante neque. Fusce nec mauris sodales, auctor sem at, luctus eros. Praesent aliquam nibh neque. Duis ut suscipit justo, id consectetur orci. Curabitur ultricies nunc eu enim dignissim, sed laoreet odio blandit.",
-    status: "Mind Mapped",
+    status: "Idea",
     owner: "Jim",
   },
+
   {
     id: 4,
-    name: "Implement containerization",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan quis justo quis hendrerit. Curabitur a ante neque. Fusce nec mauris sodales, auctor sem at, luctus eros. Praesent aliquam nibh neque. Duis ut suscipit justo, id consectetur orci. Curabitur ultricies nunc eu enim dignissim, sed laoreet odio blandit.",
-    status: "POC",
-    owner: "Joel",
-  },
-  {
-    id: 5,
     name: "Migrate to oauth accounts",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan quis justo quis hendrerit. Curabitur a ante neque. Fusce nec mauris sodales, auctor sem at, luctus eros. Praesent aliquam nibh neque. Duis ut suscipit justo, id consectetur orci. Curabitur ultricies nunc eu enim dignissim, sed laoreet odio blandit.",
     status: "Exploratory",
     owner: "Jake",
+  },
+  {
+    id: 5,
+    name: "Implement containerization",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan quis justo quis hendrerit. Curabitur a ante neque. Fusce nec mauris sodales, auctor sem at, luctus eros. Praesent aliquam nibh neque. Duis ut suscipit justo, id consectetur orci. Curabitur ultricies nunc eu enim dignissim, sed laoreet odio blandit.",
+    status: "POC",
+    owner: "Joel",
   },
 ];
 
