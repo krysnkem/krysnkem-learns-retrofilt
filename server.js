@@ -73,7 +73,7 @@ app.get("/ideas", function (req, res) {
     var ownerIdeas = ideas.filter(function (idea) {
       return idea.owner == req.query.owner;
     });
-    res.end(JSON.stringify(ownerIdeas.slice(0, count)));
+    return res.end(JSON.stringify(ownerIdeas.slice(0, count)));
   }
 
   res.end(JSON.stringify(ideas.slice(0, count)));
